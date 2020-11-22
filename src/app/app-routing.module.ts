@@ -11,8 +11,13 @@ import {L248Component} from './screens/l248/l248.component';
 import {L018Component} from './screens/l018/l018.component';
 import {L250Component} from './screens/l250/l250.component';
 import {L249Component} from './screens/l249/l249.component';
+import {L000Component} from './screens/l000/l000.component';
 
 const routes: Routes = [
+  {
+    path: '000',
+    component: L000Component
+  },
   {
     path: '001',
     component: L001Component
