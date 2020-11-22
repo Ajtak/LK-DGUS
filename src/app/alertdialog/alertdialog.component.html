@@ -1,0 +1,18 @@
+<div class="dialog-full">
+  <div class="card lkcard">
+    <div class="card-title">
+      <h3>{{title}}</h3>
+    </div>
+
+    <div class="card-body dialog-text">
+      {{text}}
+    </div>
+
+    <div class="btn-divider" *ngFor="let item of buttons; let i = index">
+      <div class="col-{{item.col}}">
+        <a class="btn btn-block btn-{{item.color}}">{{item.title}}</a>
+      </div>
+    </div>
+  </div>
+</div>
+

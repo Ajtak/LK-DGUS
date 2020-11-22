@@ -1,0 +1,18 @@
+<ng-container *ngIf="showTopBar()">
+
+  <div class="card corona-gradient-card">
+    <div class="card-body py-0 px-0 px-sm-3">
+      <div class="row align-items-center">
+        <div (click)="redir('')" class="col-3 backlink">
+          <ng-container *ngIf="getBackTitle()">
+            <i class="mdi mdi-arrow-left"></i> {{getBackTitle()}}
+          </ng-container>
+        </div>
+        <div class="col-6 text-center text-titlebar">
+          {{getTitle()}}
+        </div>
+        <div class="col-3"></div>
+      </div>
+    </div>
+  </div>
+</ng-container>
