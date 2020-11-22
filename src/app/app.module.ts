@@ -20,6 +20,10 @@ import { L018Component } from './screens/l018/l018.component';
 import { L250Component } from './screens/l250/l250.component';
 import { L249Component } from './screens/l249/l249.component';
 import { L000Component } from './screens/l000/l000.component';
+import { L206Component } from './screens/l206/l206.component';
+import { L208Component } from './screens/l208/l208.component';
+import { L212Component } from './screens/l212/l212.component';
+import { L214Component } from './screens/l214/l214.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +45,10 @@ import { L000Component } from './screens/l000/l000.component';
     L250Component,
     L249Component,
     L000Component,
+    L206Component,
+    L208Component,
+    L212Component,
+    L214Component,
   ],
   imports: [
     BrowserModule,

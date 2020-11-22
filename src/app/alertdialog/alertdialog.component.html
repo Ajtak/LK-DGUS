@@ -8,10 +8,12 @@
       {{text}}
     </div>
 
-    <div class="btn-divider" *ngFor="let item of buttons; let i = index">
-      <div class="col-{{item.col}}">
-        <a class="btn btn-block btn-{{item.color}}">{{item.title}}</a>
-      </div>
+    <div class="row btn-divider">
+      <ng-container *ngFor="let item of buttons; let i = index">
+        <div class="col-{{item.col}}">
+          <a class="btn btn-block btn-{{item.color}}">{{item.title}}</a>
+        </div>
+      </ng-container>
     </div>
   </div>
 </div>

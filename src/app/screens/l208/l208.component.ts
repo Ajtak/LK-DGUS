@@ -2,12 +2,11 @@ import {Component, OnInit} from '@angular/core';
 import {BaseComponentDirective} from '../../basecomponent';
 
 @Component({
-  selector: 'app-l204',
-  templateUrl: './l204.component.html',
-  styleUrls: ['./l204.component.sass']
+  selector: 'app-l208',
+  templateUrl: './l208.component.html',
+  styleUrls: ['./l208.component.sass']
 })
-export class L204Component extends BaseComponentDirective implements OnInit {
-
+export class L208Component extends BaseComponentDirective implements OnInit {
 
   ngOnInit(): void {
   }
@@ -26,5 +25,6 @@ export class L204Component extends BaseComponentDirective implements OnInit {
         color: 'warning'
       }];
   }
+
 
 }
