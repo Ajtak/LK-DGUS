@@ -1,5 +1,5 @@
 .card .card-body
-  padding: 1rem 1.5625rem
+  padding: 2rem 1.5625rem 1rem
 
 .list-wrapper ul li
   padding: 0.6rem 0
@@ -16,3 +16,14 @@ h5
 
 .lkcol
   padding-right: 0
+
+@media (max-width: 400px)
+  .list-wrapper ul li.bottom-line:first-child
+    border-bottom: 2px solid #2c2e33
+    margin-bottom: 3rem
+
+@media (min-width: 400px)
+  .card .card-body
+    padding: .2rem .5rem
+  .list-wrapper ul li
+    padding: 0.08rem 0
