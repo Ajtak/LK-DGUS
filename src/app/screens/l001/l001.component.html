@@ -1,15 +1,9 @@
 {{setTitle('Overview')}}
 {{setBackLink('')}}
 <div class="row divider-box">
-
-  <div class="col-md-4 grid-margin">
-    <lg-home-button (click)="redir('002')" color="success" icon="printer" text="Print"></lg-home-button>
-  </div>
-
-  <div class="col-md-4 grid-margin">
-    <lg-home-button color="warning" icon="oil-temperature" text="Temperature"></lg-home-button>
-  </div>
-  <div class="col-md-4 grid-margin">
-    <lg-home-button color="info" icon="xaml" text="Settings"></lg-home-button>
-  </div>
+  <lg-home-button class="col-md-4 grid-margin" (click)="redir('002')" color="success" icon="printer"
+                  text="Print"></lg-home-button>
+  <lg-home-button class="col-md-4 grid-margin" color="warning" icon="oil-temperature"
+                  text="Temperature"></lg-home-button>
+  <lg-home-button class="col-md-4 grid-margin" color="info" icon="xaml" text="Settings"></lg-home-button>
 </div>
